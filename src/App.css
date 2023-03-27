@@ -1,0 +1,78 @@
+.App{
+ height:100vh;
+ background-size: cover;
+ background-position: center;
+ display: block;
+ justify-content: center;
+
+}
+
+.bg1{
+    height: 100vh;
+    background-image: url(../public/images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.bg2{
+    height: 100vh;
+    background-image: url(../public/images/bg2.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.bg3{
+    height: 100vh;
+    background-image: url(../public/images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.bg4{
+    height: 100vh;
+    background-image: url(../public/images/bg4.jpg);
+    ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 599px) {
+    body {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
+  /* Estilo para tabletas (600px a 899px) */
+  @media (min-width: 600px) and (max-width: 899px) {
+    body {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+  }
+  
+ 
+  @media (min-width: 900px) {
+    body {
+      font-size: 25px;
+    }
+    h1 {
+      font-size: 48px;
+    }
+  }

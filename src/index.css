@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  /* border: 1px solid black; */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  
+}
+.frase{
+  color: #727272;
+}
+
+.autor{
+ display: none;
+
+}
+
